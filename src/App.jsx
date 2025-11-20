@@ -4,6 +4,7 @@ import Menu from './components/Menu'
 import Story from './components/Story'
 import Awards from './components/Awards'
 import CTA from './components/CTA'
+import Reservation from './components/Reservation'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Menu />
       <Story />
       <Awards />
+      <Reservation />
       <CTA />
 
       <footer className="relative py-12 border-t border-white/10">
